@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: monospace;
+    }
+
+    body {
+      color: #fe4040;
+      background-color: #181818;
+      user-select: none;
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      margin: 50px 0 30px;
+    }
+
+    .header button {
+      margin: 0 7px;
+      padding: 0 10px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+
+    .images-section {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+
+    .img {
+      padding: 10px;
+      width: 100%;
+    }
+
+    .blurEffect {
+      filter: blur(4px);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <h2>SafeSerch: </h2>
+    <button id="blurBtn">Blur</but1ton>
+      <button id="offBtn">Off</button>
+  </div>
+  <section class="images-section">
+
+    <div>
+      <img class="img" src="https://upload.wikimedia.org/wikipedia/en/c/cd/Kaiju_No_8.jpg" alt="img-1">
+    </div>
+
+    <div>
+      <img class="img" src="https://upload.wikimedia.org/wikipedia/en/7/75/Evangelion_1.0_You_Are_Not_Alone_Poster.jpg"
+        alt="img-1">
+    </div>
+
+    <div>
+      <img class="img" src="https://upload.wikimedia.org/wikipedia/en/2/24/Lazarus_KV.png" alt="img-1">
+    </div>
+  </section>
+  <script src="main.js"></script>
+</body>
+
+</html>
