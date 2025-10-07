@@ -5,40 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Randome Color Generator</title>
-  <style>
-    * {
-      padding: 0%;
-      margin: 0;
-      box-sizing: border-box;
-      font-family: monospace;
-      font-weight: bold;
-    }
-
-    body {
-      background-color: #181818;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      user-select: none;
-    }
-
-    #color-changer-btn {
-      color: #181818;
-      background-color: #fe4040;
-      border-radius: 8px;
-      font-size: 20px;
-      padding: 15px 20px;
-      border: 0;
-      cursor: pointer;
-      box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-    }
-  </style>
+  <link rel="stylesheet" href="../../Assets/theme/akaTheme.css">
 </head>
 
-<body>
-  <div class="container">
-    <button id="color-changer-btn">Click here to see a random color</button>
+<body class="bg-primary user-select-none">
+  <div class="center-continer">
+    <button class="btn-primary fs-1">Click here to see a random color</button>
   </div>
   <script src="main.js"></script>
 </body>

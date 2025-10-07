@@ -1,4 +1,4 @@
-let colorChangeButton = document.getElementById("color-changer-btn")
+let colorChangeButton = document.querySelector(".btn-primary")
 
 function getRandomValue() {
   return Math.floor(Math.random() * 256)
